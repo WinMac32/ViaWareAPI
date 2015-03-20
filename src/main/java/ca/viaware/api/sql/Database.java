@@ -27,7 +27,7 @@ import com.almworks.sqlite4java.SQLiteStatement;
 
 public class Database {
 
-	private SQLiteConnection connection;
+	protected SQLiteConnection connection;
 
 	public Database(SQLiteConnection connection) {
 		this.connection = connection;
